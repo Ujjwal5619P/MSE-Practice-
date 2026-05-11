@@ -1,0 +1,52 @@
+name: CI pipeline
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps: 
+            - name: Checkout code
+              uses: actions/checkout@v4
+            
+            - name: setup node
+              uses: actions/setup-node@v4
+              with:
+                node-version: 18
+
+            - name: install dependencies
+              run: npm install
+
+            - name: run app.js
+              run: node app.js
+    
+
+# name: CI pipeline
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
+
+#       - name: Setup node
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: 18
+
+#       - name: Install dependencies
+#         run: npm install
+
+#       - name: Run app.js
+#         run: node app.js
