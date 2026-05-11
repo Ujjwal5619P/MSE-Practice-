@@ -2,5 +2,5 @@ projectKey=Practice
 serverUrl=http://localhost:9000
 serverVersion=26.4.0.121862
 dashboardUrl=http://localhost:9000/dashboard?id=Practice
-ceTaskId=6df326fb-c6f3-407b-808b-83bb8961bd2b
-ceTaskUrl=http://localhost:9000/api/ce/task?id=6df326fb-c6f3-407b-808b-83bb8961bd2b
+ceTaskId=be79e806-622e-44b0-b5e2-a77aeef7f995
+ceTaskUrl=http://localhost:9000/api/ce/task?id=be79e806-622e-44b0-b5e2-a77aeef7f995
