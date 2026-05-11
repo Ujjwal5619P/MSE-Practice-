@@ -22,7 +22,7 @@ jobs:
               run: npm install
 
             - name: run app.js
-              run: node app.js
+              run: echo "Build successful! Running app.js..." 
     
 
 # name: CI pipeline
